@@ -1,2 +1,2 @@
 # libs_version_scan
-Scan dir, regexp found ELF binaries for version string
+Scan dir for ELF binaries and regexp for version string
