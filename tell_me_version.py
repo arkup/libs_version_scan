@@ -23,7 +23,7 @@ for r, d, f in os.walk(VERSION_SCAN_DIR):
             continue
         if '.so' in file:
             so_files.append(os.path.join(r, file))
-        else:
+        else:   #or include all files no just .so
             so_files.append(os.path.join(r, file))
 
 #
